@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load the trained simple CNN model (saved as .h5)
-model = load_model('model/simple_plant_disease_model.h5')
+model = load_model('models/plant_disease_model.h5')
 
 # Define the function to predict plant disease
 def predict_plant_disease(img_path):
